@@ -51,6 +51,8 @@ abline(h=max(df.iavg$steps),v=df.iavg$interval[which.max(df.iavg$steps)], col="m
 
 
 ```{r, echo=FALSE}
+sprintf("Interval contains the max value: %d", df.iavg$interval[which.max(df.iavg$steps)])
+sprintf("Max number of steps: %f", max(df.iavg$steps))
 # shows number of NA
 mv=dim(activity[!complete.cases(activity),])
 sprintf("Number of missing values(NA): %d", mv[1])

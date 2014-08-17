@@ -71,6 +71,14 @@ abline(h=max(df.iavg$steps),v=df.iavg$interval[which.max(df.iavg$steps)], col="m
 
 
 ```
+## [1] "Interval contains the max value: 835"
+```
+
+```
+## [1] "Max number of steps: 206.169811"
+```
+
+```
 ## [1] "Number of missing values(NA): 2304"
 ```
 
